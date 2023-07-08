@@ -1,8 +1,9 @@
 import React from 'react';
-import './App.css';
+
 import { ThemeProvider} from '@mui/material/styles';
-import HomePage from './pages/homepage';
 import theme from './assets/theme/theme';
+import './App.css';
+import HomePage from './pages/homePage';
 function App() {
   return (
     <React.Fragment>

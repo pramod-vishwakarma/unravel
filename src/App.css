@@ -10,3 +10,56 @@ font-family: 'SF-Pro-Display-Regular',sans-serif;
 h1,h2,h3,h4,h5,h6{
   font-family: 'SF-Pro-Display-Medium',sans-serif;
 }
+.heading{
+  font-family: "SF-Pro-Display-bold";
+  font-weight:700;
+  font-size: 20px;
+  line-height: 20px;
+}
+.card-subtext{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22.5px;
+  letter-spacing: 0.5%;
+}
+.overFLowX::-webkit-scrollbar {
+  overflow: scroll;
+  scroll-behavior: smooth;
+  background: transparent; /* make scrollbar transparent */
+  -webkit-appearance: none;
+  width: 0;
+  height: 0;
+}
+.copyright-text{
+  padding: 16px 0;
+  color: #747787;
+  font-size: 13px;
+  line-height: 19.5px;
+}
+.img-style{
+  width: 1920px;
+  height: 263px;
+  max-width: 100%;
+
+}
+.banner-style{
+  width: 1232px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.location-text{
+  margin-left: 8px;
+  margin-top: -2px;
+}
+.email-text{
+  margin-left: 8px;
+}
+.logo-style{
+  width: 107px;
+  height: 26px;
+  max-width: 100%;
+  margin: 24px 0 32px 16px;
+}
+.list-style{
+  margin-left: 16px;
+}
