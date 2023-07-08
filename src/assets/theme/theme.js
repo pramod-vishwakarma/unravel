@@ -2,26 +2,30 @@ import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 const theme = responsiveFontSizes(createTheme({
     spacing: 4,
     typography: {
-        h1: {
-            fontSize: '5rem',
-        },
-        h2: {
-            fontSize: '3.5rem',
-            fontStyle: 'bold',
-        },
-        h3: {
-            fontSize: '2.5rem',
-        },
-    },
+        fontFamily: [
+          'SF-Pro-Display-Medium',
+          'SF-Pro-Display-Regular',
+          '"SF-Pro-Display-Bold"',
+          'SF-Pro-Display-Light',
+          '"SF-Pro-Display-UltraLight"',
+          'sans-serif',
+        ].join(','),
+        fontSizeRegular:20,
+        fontSizeSm:15,
+        fontWeightBold:700,
+        fontWeightLight:400,
+        fontWeightRegular:500,
+        fontWeightMedium:600,
+      },
     palette: {
         background: {
-            default: '#fff'//green
+            default: '#F1F3F9'
         },
         primary: {
-            main: '#2B37D4',//indigo
+            main: '#00857D',//Primary/Shades/20%
         },
         secondary: {
-            main: '#E769A6',//pink
+            main: '#F1F3F9',//gray 5%
         },
         error: {
             main: '#D72A2A',//red
@@ -36,8 +40,15 @@ const theme = responsiveFontSizes(createTheme({
             main: '#09FE00',//green
         },
         text: {
-            primary: '#000000',//black
-            secondary: '#FFFFFF',//white
+            primary:'#0B0C15',//gray 100%
+            secondary:'#747787',//gray 60%
+            gray80:'#424450',//gray 80%
+        },
+        white:{
+            main:'#FFFFFF',
+        },
+        tint:{
+            main:'#CCEDEB'
         },
     },
 }));
