@@ -30,7 +30,7 @@ export default function DiscoverDestinations() {
         </Typography>
         </Grid>
         <Grid item={12} pt={0} pb={8} sx={{maxWidth:'100%',overflowX:'scroll'}} className='overFLowX'><AvatarImageList/></Grid>
-        <Grid item sm={4} md={3}>
+        <Grid item sm={6} md={4} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -50,7 +50,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={4} md={3}>
+        <Grid item sm={6} md={4} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -70,7 +70,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={4} md={3}>
+        <Grid item sm={6} md={4} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -90,7 +90,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={4} md={3}>
+        <Grid item sm={6} md={4} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -110,7 +110,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={4} md={3}>
+        <Grid item sm={6} md={4} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -130,7 +130,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={4} md={3}>
+        <Grid item sm={6} md={4} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -150,7 +150,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={4} md={3}>
+        <Grid item sm={6} md={4} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -170,7 +170,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={4} md={3}>
+        <Grid item sm={6} md={4} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia

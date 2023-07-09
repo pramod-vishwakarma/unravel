@@ -100,7 +100,7 @@ function HomePage(props) {
         sx={{
           width: { sm: `calc(100% - ${drawerWidth}px)` },
           ml: { sm: `${drawerWidth}px` },
-          display: { md: 'none',xl:'none',}
+          display: { md: 'none',xl:'none', sm:'none'}
         }}
       >
         <Toolbar>
@@ -164,7 +164,7 @@ function HomePage(props) {
           </Typography>
         </Grid>
         <Grid item xs={6} md={2} textAlign='right'>
-        <Button variant="contained" startIcon={<img src={FilterIcon} alt='filtericon'/>} color='white' sx={{padding:'8px 12px',borderRadius:'7px'}}>
+        <Button variant="contained" startIcon={<img src={FilterIcon} alt='filtericon'/>} color='white' sx={{padding:'8px 16px',borderRadius:'7px'}}>
         <Typography color='primary' fontSize='fontSizeSm' fontWeight='fontWeightMedium' size="small" textTransform="capitalize">Filter</Typography>
       </Button>
         </Grid>
