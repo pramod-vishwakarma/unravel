@@ -9,10 +9,10 @@ html,body{
 }
 
 a,ul,li,p,div,table.p,span,label,select,form,code,button{
-font-family: 'SF-Pro-Display-Regular',sans-serif;
+font-family: 'SF-Pro-Display-Regular',sans-serif !important;
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: 'SF-Pro-Display-Semibold',sans-serif;
+  font-family: 'SF-Pro-Display-Semibold',sans-serif !important;
 }
 .heading{
   font-family: "SF-Pro-Display-bold";
