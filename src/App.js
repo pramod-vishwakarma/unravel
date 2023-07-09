@@ -7,7 +7,7 @@ import HomePage from './pages/homePage';
 function App() {
   return (
     <React.Fragment>
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme} >
     <div className="App">
       <HomePage/>
     </div>

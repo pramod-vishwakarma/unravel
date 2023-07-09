@@ -16,9 +16,9 @@ import img8 from '../assets/images/img-8.png';
 import MV from '../assets/images/icons/🇲🇻.svg'
 export default function Destinations() {
   return (
-    <Grid container spacing={2} justifyContent="center">
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+    <Grid container spacing={12} justifyContent="center">
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -26,19 +26,19 @@ export default function Destinations() {
             image={img1}
             alt="img-1"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -46,19 +46,19 @@ export default function Destinations() {
             image={img2}
             alt="img-2"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -66,19 +66,19 @@ export default function Destinations() {
             image={img3}
             alt="img-3"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -86,19 +86,19 @@ export default function Destinations() {
             image={img4}
             alt="img-4"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -106,19 +106,19 @@ export default function Destinations() {
             image={img5}
             alt="img-5"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -126,19 +126,19 @@ export default function Destinations() {
             image={img6}
             alt="img-6"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -146,19 +146,19 @@ export default function Destinations() {
             image={img7}
             alt="img-7"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -166,11 +166,11 @@ export default function Destinations() {
             image={img8}
             alt="img-8"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
