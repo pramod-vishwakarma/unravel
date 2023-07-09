@@ -17,7 +17,7 @@ import MV from '../assets/images/icons/🇲🇻.svg'
 export default function Destinations() {
   return (
     <Grid container spacing={12} justifyContent="center">
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -37,7 +37,7 @@ export default function Destinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -57,7 +57,7 @@ export default function Destinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -77,7 +77,7 @@ export default function Destinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -97,7 +97,7 @@ export default function Destinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -117,7 +117,7 @@ export default function Destinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -137,7 +137,7 @@ export default function Destinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -157,7 +157,7 @@ export default function Destinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia

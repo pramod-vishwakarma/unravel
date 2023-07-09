@@ -29,8 +29,8 @@ export default function DiscoverDestinations() {
             All the inspiration you need for your next holiday
         </Typography>
         </Grid>
-        <Grid item={12} pt={0} pb={8} sx={{maxWidth:'100%',overflowX:'scroll'}} className='overFLowX'><AvatarImageList/></Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item={12} pt={0}  sx={{maxWidth:'100%',overflowX:'scroll',paddingBottom:{ md:'32px', sm:'0'}}} className='overFLowX'><AvatarImageList/></Grid>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -50,7 +50,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -70,7 +70,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -90,7 +90,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -110,7 +110,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -130,7 +130,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -150,7 +150,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -170,7 +170,7 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm={6} md={4} xl={3}>
+        <Grid item sm={6} md={4} lg={3} xl={3}>
         <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
@@ -190,12 +190,14 @@ export default function DiscoverDestinations() {
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid container justifyContent="center" sx={{margin:'70px 0 32px 0'}}>
-            <Grid item md={4}>
+        <Grid container justifyContent="center" sx={{margin: {md:'70px 0 32px 0', xs:'40px 0 0 0'}, paddingLeft: {md:'0', xs:12} }}>
+          <Grid item xs={0} md={4}></Grid>
+            <Grid item xs={12} md={4}>
               <Button size="small" color='tint' variant='contained' sx={{fontSize:'15px',color:'#00645E',width:440, height:40, padding:'12px 24px 12px 24px',maxWidth:'100%',textTransform:'initial'}}>Load more</Button>
             </Grid>
+            <Grid item xs={0} md={4}></Grid>
         </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={12} xl={12} sx={{padding: { xs: 0} }}>
             <img src={banner2} alt='banner2' className='banner-style'/>
         </Grid>
     </Grid>
