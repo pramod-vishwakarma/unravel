@@ -24,7 +24,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function DirectionStack() {
   return (
     <Grid container spacing={2}>
-      <Stack direction="row" spacing={2} sx={{marginTop:'35.5px', marginBottom:'72px'}}>
+      <Stack direction="row" spacing={2}>
         <Item><img src={Avatar1} alt='avatar1'/>
             <Typography color='text.primary' fontSize="fontSizeSm">Barcelona</Typography>
         </Item>

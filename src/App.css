@@ -1,3 +1,7 @@
+html,body{
+  scroll-behavior: smooth;
+  font-family: 'SF-Pro-Display-Regular',sans-serif;
+}
 .App-logo {
   width: 100px;
   max-width: 100%;
@@ -8,7 +12,7 @@ a,ul,li,p,div,table.p,span,label,select,form,code,button{
 font-family: 'SF-Pro-Display-Regular',sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: 'SF-Pro-Display-Medium',sans-serif;
+  font-family: 'SF-Pro-Display-Semibold',sans-serif;
 }
 .heading{
   font-family: "SF-Pro-Display-bold";
@@ -20,7 +24,7 @@ h1,h2,h3,h4,h5,h6{
   font-weight: 500;
   font-size: 15px;
   line-height: 22.5px;
-  letter-spacing: 0.5%;
+  letter-spacing: 0.15px;
 }
 .overFLowX::-webkit-scrollbar {
   overflow: scroll;
@@ -30,7 +34,7 @@ h1,h2,h3,h4,h5,h6{
   width: 0;
   height: 0;
 }
-.copyright-text{
+.copyright-text ~ p{
   padding: 16px 0;
   color: #747787;
   font-size: 13px;
@@ -45,14 +49,21 @@ h1,h2,h3,h4,h5,h6{
 .banner-style{
   width: 1232px;
   max-width: 100%;
+  margin: 0 auto;
   overflow: hidden;
 }
 .location-text{
   margin-left: 8px;
   margin-top: -2px;
 }
+.location-text p{
+  font-size: 13px;
+  color: #0B0C15;
+}
 .email-text{
-  margin-left: 8px;
+  padding-left: 8px;
+  text-decoration: none;
+  color: #747787;
 }
 .logo-style{
   width: 107px;
@@ -62,4 +73,42 @@ h1,h2,h3,h4,h5,h6{
 }
 .list-style{
   margin-left: 16px;
+}
+.sidebar-text span{
+  font-size: 15px;
+  font-family: 'SF-Pro-Display-Semibold',sans-serif;
+  font-weight: 600;
+  color:#747787;
+  border-radius: 8px;
+}
+.sidebar-text-active span{
+  font-size: 15px;
+  font-family: 'SF-Pro-Display-Semibold',sans-serif;
+  font-weight: 600;
+  color:#00857D;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #CCEDEB;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #00645E; 
+}
+.card-content p{
+  font-weight:600; 
+  font-size:15px;
+  line-height:22.5px;
+  letter-spacing:0.15px;
+}
+.copyright-text{
+  width: 40%;
+  margin: 0 auto !important;
 }

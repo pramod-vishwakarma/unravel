@@ -48,7 +48,7 @@ const theme = responsiveFontSizes(createTheme({
             main:'#FFFFFF',
         },
         tint:{
-            main:'#CCEDEB'
+            main:'#CCEDEB',
         },
     },
 }));

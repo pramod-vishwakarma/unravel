@@ -20,7 +20,7 @@ import banner2 from '../assets/images/banner2.png'
 
 export default function DiscoverDestinations() {
   return (
-       <Grid container spacing={2}>
+       <Grid container spacing={12} justifyContent="center">
          <Grid item xs={12} md={12} mt={10}>
         <Typography fontSize="fontSizeRegular" color="text" fontWeight="fontWeightBold">
             Discover dream destinations 
@@ -29,9 +29,9 @@ export default function DiscoverDestinations() {
             All the inspiration you need for your next holiday
         </Typography>
         </Grid>
-        <Grid item={12} sx={{maxWidth:'100%',overflowX:'scroll'}} className='overFLowX'><AvatarImageList/></Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item={12} pt={0} pb={8} sx={{maxWidth:'100%',overflowX:'scroll'}} className='overFLowX'><AvatarImageList/></Grid>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -39,19 +39,19 @@ export default function DiscoverDestinations() {
             image={img9}
             alt="img-9"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -59,19 +59,19 @@ export default function DiscoverDestinations() {
             image={img10}
             alt="img-10"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -79,19 +79,19 @@ export default function DiscoverDestinations() {
             image={img11}
             alt="img-11"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -99,19 +99,19 @@ export default function DiscoverDestinations() {
             image={img12}
             alt="img-12"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -119,19 +119,19 @@ export default function DiscoverDestinations() {
             image={img13}
             alt="img-13"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -139,19 +139,19 @@ export default function DiscoverDestinations() {
             image={img14}
             alt="img-14"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -159,19 +159,19 @@ export default function DiscoverDestinations() {
             image={img15}
             alt="img-15"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid item sm="4" md="3">
-        <Card sx={{ maxWidth: 272,borderRadius:'10px',mb:3}}>
+        <Grid item sm={4} md={3}>
+        <Card sx={{borderRadius:'10px'}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -179,26 +179,24 @@ export default function DiscoverDestinations() {
             image={img16}
             alt="img-16"
           />
-          <CardContent>
+          <CardContent className='card-content'>
             <Typography gutterBottom variant="body2" component="div" display='flex' alignItems='center'>
             Noonu, Maldives<img src={MV} alt='flag' style={{paddingLeft:4}}/>
             </Typography>
-            <Typography color="text.primary" sx={{fontWeight:'600', fontSize:'15px', lineHeight:'22.5px',letterSpacing:'0.5%'}}>
+            <Typography color="text.primary">
             Canoe your way through picture-perfect lagoons at the
             </Typography>
           </CardContent>
         </CardActionArea>
          </Card>
         </Grid>
-        <Grid container justifyContent="center" sx={{margin:'70px 0'}}>
+        <Grid container justifyContent="center" sx={{margin:'70px 0 32px 0'}}>
             <Grid item md={4}>
-              <Button size="small" color='tint' variant='contained' sx={{color:'#00645E',width:440, height:40, padding:'12px 24px 12px 24px',maxWidth:'100%'}}>Load More</Button>
+              <Button size="small" color='tint' variant='contained' sx={{fontSize:'15px',color:'#00645E',width:440, height:40, padding:'12px 24px 12px 24px',maxWidth:'100%',textTransform:'initial'}}>Load more</Button>
             </Grid>
         </Grid>
-        <Grid container spacing={2}>
         <Grid item xs={12}>
             <img src={banner2} alt='banner2' className='banner-style'/>
-        </Grid>
         </Grid>
     </Grid>
   );

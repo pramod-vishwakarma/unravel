@@ -25,24 +25,24 @@ export default function Footer() {
               Sign up now for the beta access</Button>
         </Grid>
         <Grid item xs={12} md={3} sm={6}>
-        <Grid item xs={12} pb={2}><Link href='#' underline='none'>About us</Link></Grid>
-        <Grid item xs={12} pb={2}><Link href='#' underline='none'>Help</Link></Grid>
-        <Grid item xs={12} pb={2}><Link href='#' underline='none'>Privacy policy</Link></Grid>
-        <Grid item xs={12} pb={2}><Link href='#' underline='none'>Terms & Conditions</Link></Grid>
-        <Grid item xs={12} pb={2}><Link href='#' underline='none'>Join the tribe</Link></Grid>
-        <Grid item xs={12} pb={2}><Link href='#' underline='none'>Contact us</Link></Grid>
+        <Grid item xs={12} pb={2}><Link href='#' underline='none' fontSize="15px">About us</Link></Grid>
+        <Grid item xs={12} pb={2}><Link href='#' underline='none' fontSize="15px">Help</Link></Grid>
+        <Grid item xs={12} pb={2}><Link href='#' underline='none' fontSize="15px">Privacy policy</Link></Grid>
+        <Grid item xs={12} pb={2}><Link href='#' underline='none' fontSize="15px">Terms & Conditions</Link></Grid>
+        <Grid item xs={12} pb={2}><Link href='#' underline='none' fontSize="15px">Join the tribe</Link></Grid>
+        <Grid item xs={12} pb={2}><Link href='#' underline='none' fontSize="15px">Contact us</Link></Grid>
         </Grid>
         <Grid item xs={12} md={4} sm={6}>
-          <List sx={{ width: '100%', maxWidth: 320, pt:0 }}>
-            <ListItem alignItems='flex-start' sx={{pt:0}}>
+          <List sx={{ width: '100%', maxWidth: 320, pt:0}}>
+            <ListItem alignItems='flex-start' sx={{pt:0,pl:0}}>
               <img src={Location} alt='location'/>
               <ListItemText className='location-text' sx={{marginTop:'-2px'}} secondary="Jl. Sunset Road No.9, Kuta, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia"/>
             </ListItem>
-            <ListItem>
+            <ListItem sx={{pl:0}}>
               <img src={Envelop} alt='Envelop'/>
-              <ListItemText className='email-text' secondary="hello@gounravel.com"/>
+              <Link className='email-text' href="mailto:hello@gounravel.com" underline="none" color='text.primary' fontSize="13px">hello@gounravel.com</Link>
             </ListItem>
-            <ListItem>
+            <ListItem sx={{pl:0}}>
               <Link href='#' mr={2.5} title="Linkedin"><img src={LinkedIn} alt='Linkedin'/></Link>
               <Link href='#' mr={2.5} title="Instagram"><img src={Instagram} alt='instagram'/></Link>
               <Link href='#' title="Tiktok"><img src={Tiktok} alt='tiktok'/></Link>
@@ -50,8 +50,8 @@ export default function Footer() {
           </List>
         </Grid>
       </Grid>
-      <Divider />
-      <Typography textAlign='center' className='copyright-text'>2022 All rights reserved by Unravel Technologies Ltd</Typography>
+      <Divider className='copyright-text'/>
+      <Typography textAlign='center'>2022 All rights reserved by Unravel Technologies Ltd</Typography>
     </Box>
   );
 }
