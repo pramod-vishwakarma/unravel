@@ -103,16 +103,18 @@ function HomePage(props) {
           display: { md: 'none',xl:'none', sm:'none'}
         }}
       >
+        
         <Toolbar>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' }}}
+            sx={{ mr: -4, display: { sm: 'none' }}}
           >
             <MenuIcon />
           </IconButton>
+          <img src={Logo} alt='logo' className='mini-logo'/>
         </Toolbar>
       </AppBar>
       <Box component="nav"
@@ -155,7 +157,7 @@ function HomePage(props) {
             </Grid>
        </Grid>
         <Grid container spacing={2} padding={10}>
-        <Grid item xs={6} md={10}>
+        <Grid item xs={12} md={10}>
           <Typography fontSize="fontSizeRegular" color="text" fontWeight="fontWeightBold">
              Discover dream destinations 
           </Typography>
@@ -163,7 +165,7 @@ function HomePage(props) {
              All the inspiration you need for your next holiday
           </Typography>
         </Grid>
-        <Grid item xs={6} md={2} textAlign='right'>
+        <Grid item xs={12} md={2} textAlign='right'>
         <Button variant="contained" startIcon={<img src={FilterIcon} alt='filtericon'/>} color='white' sx={{padding:'8px 16px',borderRadius:'7px'}}>
         <Typography color='primary' fontSize='fontSizeSm' fontWeight='fontWeightMedium' size="small" textTransform="capitalize">Filter</Typography>
       </Button>
